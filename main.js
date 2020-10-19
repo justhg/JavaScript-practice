@@ -6,10 +6,10 @@
 'use strict';
 console.log('Hello World!');
 
-// 2. variable
+// 2. variable r&w okay!
 // let (added in ES6)
 // var hoisting (move declaration from bottom to top)
-// 3. contants
+// 3. constant read only!
 //   - favor immutable data type always for a few reasons:
 //     - security
 //     - thread safety
