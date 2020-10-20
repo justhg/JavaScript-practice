@@ -89,3 +89,55 @@ console.log(null == undefined );
 console.log(null === undefined );
 
 ////4-14:00////
+
+//  8.conditional operators: if else if, else
+const name = 'Milo';
+if(name === 'Milo'){
+    console.log('Welcome.');
+}
+else if(name === 'coder'){
+    console.log('you are amazing coder.');
+}
+else{
+    console.log('unknown');
+}
+
+//For simple things
+
+console.log(name === 'Milo' ? 'yes' : 'no');
+
+//  10. switch
+
+const browser = 'IE';
+switch(browser) {
+    case 'IE':
+        console.log('go away!');
+        break;
+    case 'Chrome':
+    case 'FireFox':
+        console.log('I love U!');
+        break;
+    default:
+        console.log('same all!');
+        break;
+}
+
+//  11.loops
+let i = 3;
+while(i > 0){
+    console.log(`while: ${i}`);
+    i--;
+}
+
+do{
+    console.log(`do while: ${i}`);
+    i--;
+}while(i>0)
+
+
+for(let i = 3; i>0; i--){
+    console.log(`for:${i}`);
+}
+
+// break -- loop를 끝낸다.
+// continue -- 지금것만 스킵한다.
