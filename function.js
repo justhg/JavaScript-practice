@@ -82,3 +82,12 @@ const add = (a, b) =>  a+b;
 (function IIFE(){
   console.log('IIFE');
 })();
+
+const user1 = {name: 'Bryan', ID: 'toasty(new)'};
+let message = 'Let\'s play overwatch!';
+
+function sendMessage(message, user){
+  console.log(`Hey, ${user}! ${message}`);
+}
+
+sendMessage(message, user1.name);
